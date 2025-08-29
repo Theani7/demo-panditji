@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panditji - Premium Pandit Booking Service | Authentic Hindu Ceremonies</title>
+    <meta name="description" content="Book verified and experienced pandits for all Hindu ceremonies, pujas, and rituals. Trusted by 5,000+ families across Nepal.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>🕉️ Panditji</h2>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#pandits" class="nav-link">Pandits</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="btn-primary nav-cta" id="navBookBtn">Book Now</button>
+            </div>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-pattern"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">✨</span>
+                    <span>Trusted by 5,000+ Families</span>
+                </div>
+                <h1 class="hero-title">Authentic Hindu Ceremonies with Verified Pandits</h1>
+                <p class="hero-subtitle">Experience the sacred traditions with our network of experienced, verified pandits across Nepal. From daily pujas to grand celebrations, we ensure every ritual is performed with devotion and authenticity.</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-label">Verified Pandits</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">25+</div>
+                        <div class="stat-label">Cities Covered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">8K+</div>
+                        <div class="stat-label">Ceremonies Completed</div>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <button class="btn-primary" id="bookNowBtn">
+                        <span class="btn-icon">📅</span>
+                        Book a Pandit Now
+                    </button>
+                    <button class="btn-secondary">
+                        <span class="btn-icon">▶️</span>
+                        Watch Demo
+                    </button>
+                </div>
+                <div class="hero-trust">
+                    <p>⭐⭐⭐⭐⭐ 4.9/5 rating from 1,200+ reviews</p>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card-stack">
+                    <div class="hero-card card-1">
+                        <div class="card-icon">🕉️</div>
+                        <h4>Daily Pujas</h4>
+                        <p>Morning & evening prayers</p>
+                    </div>
+                    <div class="hero-card card-2">
+                        <div class="card-icon">💒</div>
+                        <h4>Wedding Ceremonies</h4>
+                        <p>Complete traditional rituals</p>
+                    </div>
+                    <div class="hero-card card-3">
+                        <div class="card-icon">🎉</div>
+                        <h4>Festival Celebrations</h4>
+                        <p>Diwali, Navratri & more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🙏</div>
+                    <h3>Daily Pujas</h3>
+                    <p>Regular worship ceremonies for your home or office</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💒</div>
+                    <h3>Wedding Ceremonies</h3>
+                    <p>Complete wedding rituals with traditional customs</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎉</div>
+                    <h3>Festival Celebrations</h3>
+                    <p>Special pujas for festivals and auspicious occasions</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3>Griha Pravesh</h3>
+                    <p>House warming and blessing ceremonies</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⭐</div>
+                    <h3>Special Occasions</h3>
+                    <p>Birthday, anniversary, and milestone celebrations</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🕯️</div>
+                    <h3>Spiritual Guidance</h3>
+                    <p>Personal consultations and spiritual counseling</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">Simple steps to book your perfect pandit</p>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">🔍</div>
+                    <h3>Choose Your Service</h3>
+                    <p>Select from our wide range of puja and ceremony options. Each service includes detailed descriptions and requirements.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">👨‍🦳</div>
+                    <h3>Select Your Pandit</h3>
+                    <p>Browse verified pandits in your area, check their profiles, reviews, and specializations to find the perfect match.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">📅</div>
+                    <h3>Schedule & Confirm</h3>
+                    <p>Pick your preferred date and time. Our pandits will arrive with all necessary materials and conduct the ceremony.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Pandits Section -->
+    <section id="pandits" class="pandits">
+        <div class="container">
+            <h2 class="section-title">Meet Our Expert Pandits</h2>
+            <p class="section-subtitle">Experienced, verified, and dedicated to preserving sacred traditions</p>
+            <div class="pandits-grid">
+                <div class="pandit-card featured">
+                    <div class="pandit-badge">⭐ Top Rated</div>
+                    <div class="pandit-avatar">👨‍🦳</div>
+                    <h3>Pandit Rajesh Sharma</h3>
+                    <p class="pandit-experience">🎓 25+ years experience</p>
+                    <p class="pandit-specialty">Specializes in Wedding Ceremonies, Griha Pravesh & Vedic Rituals</p>
+                    <div class="pandit-languages">🗣️ Nepali, Hindi, English, Sanskrit</div>
+                    <div class="pandit-location">📍 Kathmandu, Pokhara, Lalitpur</div>
+                    <div class="pandit-rating">⭐⭐⭐⭐⭐ 4.9 (347 reviews)</div>
+                    <div class="pandit-price">Starting from $25</div>
+                    <div class="pandit-actions">
+                        <button class="btn-outline">View Profile</button>
+                        <button class="btn-primary-small">Book Now</button>
+                    </div>
+                </div>
+                <div class="pandit-card">
+                    <div class="pandit-badge">🏆 Expert</div>
+                    <div class="pandit-avatar">👨‍🦲</div>
+                    <h3>Pandit Suresh Kumar</h3>
+                    <p class="pandit-experience">🎓 30+ years experience</p>
+                    <p class="pandit-specialty">Expert in Festival Pujas, Daily Worship & Spiritual Guidance</p>
+                    <div class="pandit-languages">🗣️ Nepali, Hindi, Sanskrit</div>
+                    <div class="pandit-location">📍 Bhaktapur, Chitwan, Butwal</div>
+                    <div class="pandit-rating">⭐⭐⭐⭐⭐ 4.8 (289 reviews)</div>
+                    <div class="pandit-price">Starting from $20</div>
+                    <div class="pandit-actions">
+                        <button class="btn-outline">View Profile</button>
+                        <button class="btn-primary-small">Book Now</button>
+                    </div>
+                </div>
+                <div class="pandit-card">
+                    <div class="pandit-badge">🌟 Popular</div>
+                    <div class="pandit-avatar">👨</div>
+                    <h3>Pandit Amit Gupta</h3>
+                    <p class="pandit-experience">🎓 18+ years experience</p>
+                    <p class="pandit-specialty">Traditional Ceremonies, Astrology & Vastu Consultation</p>
+                    <div class="pandit-languages">🗣️ Nepali, English, Hindi</div>
+                    <div class="pandit-location">📍 Biratnagar, Dharan, Janakpur</div>
+                    <div class="pandit-rating">⭐⭐⭐⭐⭐ 4.7 (456 reviews)</div>
+                    <div class="pandit-price">Starting from $18</div>
+                    <div class="pandit-actions">
+                        <button class="btn-outline">View Profile</button>
+                        <button class="btn-primary-small">Book Now</button>
+                    </div>
+                </div>
+                <div class="pandit-card">
+                    <div class="pandit-badge">🕉️ Specialist</div>
+                    <div class="pandit-avatar">👨‍🦱</div>
+                    <h3>Pandit Vikram Joshi</h3>
+                    <p class="pandit-experience">🎓 22+ years experience</p>
+                    <p class="pandit-specialty">Katha & Pravachan, Religious Discourses & Bhajan</p>
+                    <div class="pandit-languages">🗣️ Nepali, Hindi, Sanskrit</div>
+                    <div class="pandit-location">📍 Nepalgunj, Birgunj, Hetauda</div>
+                    <div class="pandit-rating">⭐⭐⭐⭐⭐ 4.9 (198 reviews)</div>
+                    <div class="pandit-price">Starting from $30</div>
+                    <div class="pandit-actions">
+                        <button class="btn-outline">View Profile</button>
+                        <button class="btn-primary-small">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pandits-cta">
+                <button class="btn-secondary-large">View All Pandits</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Transparent Pricing</h2>
+            <p class="section-subtitle">No hidden charges. Pay only for what you book.</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Basic Puja</h3>
+                        <div class="price">$15 <span class="price-period">onwards</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✅ Daily puja ceremonies</li>
+                        <li>✅ Basic materials included</li>
+                        <li>✅ 1-2 hour duration</li>
+                        <li>✅ Experienced pandit</li>
+                        <li>✅ Photo/video allowed</li>
+                    </ul>
+                    <button class="btn-outline-full">Book Basic Puja</button>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Premium Ceremony</h3>
+                        <div class="price">$35 <span class="price-period">onwards</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✅ Wedding & special occasions</li>
+                        <li>✅ Premium materials included</li>
+                        <li>✅ 3-4 hour duration</li>
+                        <li>✅ Senior expert pandit</li>
+                        <li>✅ Complete documentation</li>
+                        <li>✅ Personalized rituals</li>
+                    </ul>
+                    <button class="btn-primary-full">Book Premium</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Grand Celebration</h3>
+                        <div class="price">$75 <span class="price-period">onwards</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✅ Large festivals & events</li>
+                        <li>✅ All materials & decorations</li>
+                        <li>✅ Full day ceremony</li>
+                        <li>✅ Multiple expert pandits</li>
+                        <li>✅ Complete event management</li>
+                        <li>✅ Live streaming option</li>
+                    </ul>
+                    <button class="btn-outline-full">Book Grand Event</button>
+                </div>
+            </div>
+            <div class="pricing-note">
+                <p>💡 <strong>Note:</strong> Prices may vary based on location, specific requirements, and pandit availability. Final pricing will be confirmed during booking.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <p class="section-subtitle">Trusted by thousands of families across India</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Pandit Rajesh ji conducted our wedding ceremony beautifully. Every ritual was explained and performed with such devotion. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👰</div>
+                        <div class="author-info">
+                            <h4>Priya & Rahul Sharma</h4>
+                            <p>Wedding Ceremony, Mumbai</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Amazing service! Pandit ji arrived on time with all materials. The Griha Pravesh puja was conducted perfectly. Very professional and knowledgeable."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">🏠</div>
+                        <div class="author-info">
+                            <h4>Anjali Patel</h4>
+                            <p>Griha Pravesh, Pokhara</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Excellent platform! Found the perfect pandit for our Diwali celebration. The booking process was smooth and the service was outstanding."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">🎊</div>
+                        <div class="author-info">
+                            <h4>Rajesh Kumar</h4>
+                            <p>Diwali Puja, Kathmandu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Panditji provided excellent spiritual guidance and conducted our family puja with great care. Very satisfied with the service quality."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨‍👩‍👧‍👦</div>
+                        <div class="author-info">
+                            <h4>Meera Joshi</h4>
+                            <p>Family Puja, Lalitpur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I book a pandit?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Simply click on "Book Now", select your service type, choose your preferred pandit, pick a date and time, and confirm your booking. You'll receive a confirmation within 2 hours.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Are all pandits verified?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, all our pandits go through a rigorous verification process including background checks, experience validation, and customer feedback reviews before joining our platform.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What materials are included?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Basic puja materials like flowers, incense, oil lamps, and prasadam are included. For special ceremonies, we provide all required items as per the ritual requirements.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I reschedule my booking?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, you can reschedule your booking up to 24 hours before the scheduled time without any charges. Contact our support team for assistance.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What if I'm not satisfied with the service?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer a 100% satisfaction guarantee. If you're not completely satisfied, we'll either send another pandit or provide a full refund within 48 hours.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you provide services outside major cities?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We currently serve 25+ cities across Nepal and are expanding rapidly. Check our service areas during booking or contact us for availability in your location.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>+977 98765 43210</p>
+                                <p>+977 87654 32109</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>booking@panditji.com.np</p>
+                                <p>support@panditji.com.np</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h4>Address</h4>
+                                <p>123 Durbar Marg</p>
+                                <p>Kathmandu, Nepal 44600</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div class="contact-details">
+                                <h4>Hours</h4>
+                                <p>Mon-Sun: 6:00 AM - 10:00 PM</p>
+                                <p>Emergency: 24/7 Available</p>
+                            </div>
+                        </div>
+                    </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Select Inquiry Type</option>
+                                <option value="booking">Booking Inquiry</option>
+                                <option value="support">Customer Support</option>
+                                <option value="partnership">Pandit Partnership</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Book a Pandit</h2>
+                <span class="close">&times;</span>
+            </div>
+            <form id="bookingForm" class="booking-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Type of Service</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option value="daily-puja">Daily Puja</option>
+                        <option value="wedding">Wedding Ceremony</option>
+                        <option value="festival">Festival Celebration</option>
+                        <option value="griha-pravesh">Griha Pravesh</option>
+                        <option value="special-occasion">Special Occasion</option>
+                        <option value="spiritual-guidance">Spiritual Guidance</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Preferred Time</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <textarea id="address" name="address" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="notes">Additional Notes (Optional)</label>
+                    <textarea id="notes" name="notes" rows="3"></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn-secondary" id="cancelBooking">Cancel</button>
+                    <button type="submit" class="btn-primary">Confirm Booking</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Success Message -->
+    <div id="successMessage" class="success-message">
+        <div class="success-content">
+            <div class="success-icon">✅</div>
+            <h3>Booking Confirmed!</h3>
+            <p>Thank you for your booking. We'll contact you within 24 hours to confirm the details.</p>
+            <button class="btn-primary" id="closeSuccess">Close</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🕉️ Panditji</h3>
+                    <p>India's most trusted platform for booking verified pandits. Preserving traditions, serving devotion.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">📘 Facebook</a>
+                        <a href="#" class="social-link">📷 Instagram</a>
+                        <a href="#" class="social-link">🐦 Twitter</a>
+                        <a href="#" class="social-link">📺 YouTube</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Daily Pujas</a></li>
+                        <li><a href="#services">Wedding Ceremonies</a></li>
+                        <li><a href="#services">Festival Celebrations</a></li>
+                        <li><a href="#services">Griha Pravesh</a></li>
+                        <li><a href="#services">Special Occasions</a></li>
+                        <li><a href="#services">Spiritual Guidance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#pandits">Our Pandits</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#press">Press</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#help">Help Center</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>📞 +977 98765 43210</li>
+                        <li>✉️ support@panditji.com.np</li>
+                        <li>📍 Kathmandu, Nepal</li>
+                        <li>🕐 Available 24/7</li>
+                    </ul>
+                    <div class="footer-app-links">
+                        <a href="#" class="app-link">📱 Download App</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 Panditji. All rights reserved. | Serving devotees across Nepal with authentic Hindu ceremonies.</p>
+                    <div class="footer-badges">
+                        <span class="badge">🔒 Secure Payments</span>
+                        <span class="badge">✅ Verified Pandits</span>
+                        <span class="badge">⭐ 4.9/5 Rating</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
